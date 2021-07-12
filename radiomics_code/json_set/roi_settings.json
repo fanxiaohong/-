@@ -1,0 +1,119 @@
+{
+
+"structures": 
+                    ["lung_seg"],
+
+
+   "imageType": {
+  		  
+ 
+                  "Original": {},
+                                                     
+                    "Wavelets": {
+				                                                  
+                                    "Wavelets": "Coif1",
+				                                     
+                                     "Index": "",
+				                            
+                                    "Direction": "HHH"
+			                                 
+                                 },
+
+                    "Sobel": {}  ,
+
+                    "Gabor": {
+                             "Radius": 3,
+                             "Sigma": 0.5,
+                             "AspectRatio": 1,
+                             "Orientation": 30,
+                             "Wavlength": 1,
+                             "Wavelength": 1
+
+                            }
+
+    
+	    
+                 },
+
+
+   "settings": {		   
+
+		   
+                   "resample": {
+     },
+
+		   
+                   "perturbation": {
+			           },
+
+		            "firstOrder" :{ 
+				                                      "binWidthEntropy": 25,
+				                    "offsetForEnergy": 0
+                                                         },
+
+		  
+                     "texture" :{ 
+				                                   "binwidth": 25,
+                                                         "numGrLevels": [],
+				                           "minIntensityCutoff": -2000,
+				                    "maxIntensityCutoff": 1000,   
+                                                                                                     "directionality": "2D",
+				"avgType": "feature",
+				"voxelOffset": 1,
+				"patchRadiusVox": [1,1,1],
+				"imgDiffThresh": 10
+                                                               },
+		   "shape" :{ 
+			       "rcs": []
+                                                     },
+
+		  "peakValley" :{ 
+				   "peakRadius": [2, 2, 0],
+				   "units": "vox"	
+                                                         },
+
+		  "ivh" :{ 
+                                                   "binwidth": 0.1,
+			    "xForIxPct": [],
+			    "xForIxCc": [],
+			    "xForVxPct": [0, 10, 20, 50, 80, 90, 95],
+                                                    "xForVxAbs": []       
+                                              }
+	    },
+
+
+ "featureClass":{
+			
+                                "shape": {
+			    
+                                                },
+
+                              "firstOrder": {
+			    	
+			          },
+
+		"glcm": {
+			    	
+                                              },
+
+		"glrlm": {
+			    
+                                 
+		                },
+
+		"glszm": {
+			          
+                                                  },
+
+		"gldm": {
+			    
+                                                },
+
+		"gtdm": {			    	
+                                         
+	              	              }
+
+
+                           }
+
+}
